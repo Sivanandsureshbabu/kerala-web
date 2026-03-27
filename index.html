@@ -1,0 +1,278 @@
+<html>
+<head>
+    <title>KERALA TOURISM</title>
+    <style>
+    * {
+        
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+   html, body {
+    height: 100%;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e5d49;  
+}
+    
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+  header {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url("images/kerala-banner-img-1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1.2em;
+    }
+    
+    .content {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        flex: 1;
+    }
+       .content h2 {
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .content h3,
+    .content p {
+        color: black;
+    }
+    
+    .content p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    
+    .destinations,
+    .tour-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 30px 0;
+        padding: 20px;
+    }
+    
+    .destination,
+    .tour-card {
+        width: 180px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .destination img,
+    .tour-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.4s;
+    }
+    
+    .destination img:hover,
+    .tour-card img:hover {
+        transform: scale(1.1);
+    }
+    
+    .tour-card h2 {
+        padding: 10px;
+        font-size: 1.5em;
+        color: #4CAF50;
+    }
+    
+    .tour-card p {
+        padding: 0 10px 20px;
+        font-size: 1em;
+        color: #555;
+    }
+    
+    button {
+        font-size: 16px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: darkgreen;
+    }
+    
+    footer {
+        background-color: #333;
+        padding: 15px;
+        color: #fff;
+        text-align: center;
+        font-size: 0.9em;
+    }
+</style>
+
+    </head>
+
+<body>
+    <div class="overlay"></div>
+
+    <header>
+        <h1>KERALA TOURISM</h1>
+        <p>God's Own Country - A Land of Wonders</p>
+    </header>
+
+    <div class="content">
+        <h2>KERALA GOD'S OWN COUNTRY</h2>
+
+        <h3>About Kerala</h3>
+        <p>
+            Welcome to Kerala - God's Own Country! Nestled between the serene Arabian Sea and the lush Western Ghats,
+            Kerala is a paradise that offers a symphony of natural beauty, cultural richness, and timeless traditions.
+            From the tranquil backwaters of Alleppey to the pristine beaches of Kovalam, and the misty hills of Munnar
+            to the vibrant festivals and delectable cuisine, Kerala is a land where every corner tells a story.
+            Whether you seek adventure, relaxation, or spiritual rejuvenation, Kerala promises an unforgettable journey
+            that will leave you enchanted and longing for more.
+        </p>
+
+        <h3>TOP DESTINATIONS</h3>
+        <div class="destinations">
+            <div class="destination"><a href="https://www.tripadvisor.in/Attractions-g297631-Activities-c57-t66-Kerala.html">
+                <img src="images/mountain.png" alt="Mountains of Kerala">
+                <p>MOUNTAINS</p></a>
+            </div>
+            <div class="destination"><a href="https://www.keralabackwater.com/attraction/beaches.html">
+                <img src="images/kadal.jpeg" alt="Beaches of Kerala">
+                <p>BEACHES</p></a>
+            </div>
+            <div class="destination"><a href="https://www.keralatourism.org/kerala-food/">
+                <img src="images/sadhya.jpg" alt="Foods of Kerala">
+                <p>KERALA FOODS</p></a>
+            </div>
+            <div class="destination"><a href="https://www.keralatourism.org/temples/">
+                <img src="images/temple.jpeg" alt="Temples of Kerala">
+                <p>TEMPLES</p></a>
+            </div>
+            <div class="destination"><a href="https://www.keralatourism.org/destination/backwater/">
+                <img src="images/backwater.jpg" alt="Backwaters of Kerala">
+                <p>BACKWATERS</p></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+     
+    <center><h1>Explore Kerala: God's Own Country</h1>
+        <p>Plan your next adventure in Kerala for a journey that will leave you with memories of a lifetime.</p></center>
+ 
+
+    <section class="tour-section">
+        
+        <a href="culturaltourism.html">
+        <div class="tour-card">
+            <img src="images\culturaltourism.jpg" alt="Kerala Cultural Tourism">
+            <h2>Kerala Cultural Tourism</h2>
+            <p>Kerala's rich heritage is showcased through its vibrant culture, traditional dance forms, and arts, offering a unique experience for visitors.</p>
+        </div>
+      </a>
+
+
+	<a href="adventure tourism.html">
+        <div class="tour-card">
+            <img src="images\adventure.jpeg" alt="Kerala Adventure Tourism">
+            <h2>Kerala Adventure Tourism</h2>
+            <p>From trekking in the Western Ghats to exploring the backwaters, Kerala is an ideal destination for adventure enthusiasts.</p>
+        </div>
+	</a>
+
+
+	<a href = "beach tourism.html">
+        <div class="tour-card">
+            <img src="images\beach tourism.jpeg" alt="Kerala Beach Tourism">
+            <h2>Kerala Beach Tourism</h2>
+            <p>With its long coastline, Kerala is home to some of the most beautiful beaches in India, ideal for relaxation and water sports.</p>
+        </div>
+	</a>
+
+<a href="backwatertourism.html">
+        <div class="tour-card">
+            <img src="images\backwater.jpg" alt="Kerala Backwater Tourism">
+            <h2>Kerala Backwater Tourism</h2>
+            <p>The backwaters of Kerala offer a unique experience with houseboat cruises, showcasing the serene beauty of Kerala's waterways.</p>
+        </div>
+</a>
+
+	<a href="wildlife treehouse tourism.html">
+        <div class="tour-card">
+            <img src="images\wildlife.jpg" alt="Kerala Treehouse & Wild Tourism">
+            <h2>Kerala Treehouse & Wild Tourism</h2>
+            <p>Stay in a treehouse and explore the wilderness of Kerala, surrounded by lush green forests and exotic wildlife.</p>
+        </div>
+	</a>
+
+	<a href= "ayurvedha tourism.html">
+        <div class="tour-card">
+            <img src="images\ayurveda.jpg" alt="Kerala Ayurveda Tourism">
+            <h2>Kerala Ayurveda Tourism</h2>
+            <p>Experience the traditional Ayurvedic treatments of Kerala, known for its healing and rejuvenation therapies.</p>
+        </div>
+	</a>
+
+        <a href="historical tourism.html">
+        <div class="tour-card">
+            <img src="images\historical.jpg" alt="Kerala Historic Tourism">
+            <h2>Kerala Historic Tourism</h2>
+            <p>Explore Kerala's historic sites, including ancient forts and monuments that tell the story of its rich past.</p>
+        </div> </a>
+
+
+
+           </section>
+         
+        <center><a href="pages/project page 2.html">
+            <button>Map & More</button>
+        </a></center><br><br>
+         
+
+
+    <footer>
+        <p>&copy; All Rights Reserved.</p>
+        <p><a href="https://sivanandsureshbabu.github.io/Portfolio/">Contact us</a> | <a href="index.html">Home</a>| About</p>
+    </footer>
+</body>
+</html>

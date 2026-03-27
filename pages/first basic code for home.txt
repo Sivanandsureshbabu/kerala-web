@@ -1,0 +1,97 @@
+<html> <head> <title> KERALA TOURISM </title>
+<style>
+body { 
+        background-image: url("bg white.jpeg") ;
+    	background-repeat: no-repeat;
+    	background-size:100% 100% ;
+    	background-position:center ;
+    	text-align: center;
+        
+      }
+</style>
+
+</head>
+
+<body> <center><h2 style = "color:green;"> KERALA GODS OWN COUNTRY</h2> </center> 
+
+
+
+
+
+
+<br><br>
+
+<i><h2 align=left>About kerala<h2><hr></i><br>
+
+<p style=font-weight:normal;font-size:70%;font-family:roman;> 
+	Welcome to Kerala - God's Own Country! Nestled between the serene Arabian Sea and the lush Western Ghats, Kerala is a paradise that offers a symphony of natural beauty, cultural richness, and timeless traditions. From the tranquil backwaters of Alleppey to the pristine beaches of Kovalam, and the misty hills of Munnar to the vibrant festivals and delectable cuisine, Kerala is a land where every corner tells a story. Whether you seek adventure, relaxation, or spiritual rejuvenation, Kerala promises an unforgettable journey that will leave you enchanted and longing for more.
+
+     </p>
+
+
+
+<table border=0 
+cellspacing =60 >
+<tr ><u><p>TOP DESTINATIONS </u><small style=font-size:60%;>(click image for more)</small></p>
+
+<th><img src="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\mountain.png",alt="mountains of kerala" usemap=#map1>
+<map name="map1"><area shape = "rect" coords="0,0,232,212" alt="mountains" href = "https://www.tripadvisor.in/Attractions-g297631-Activities-c57-t66-Kerala.html">
+<P>MOUNTAINS </P></th>
+
+
+<th><img src="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\kadal.jpeg",alt="beaches of kerala" usemap=#map2>
+<map name="map2"><area shape = "rect" coords="0,0,232,212" alt="beaches" href ="https://www.keralatourism.org/highresolutionimages/beaches/">
+<P>BEACHES</P></th>
+
+
+<th><img src="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\restaurant.jpg",alt="foods of kerala" usemap=#map3>
+<map name="map3"><area shape = "rect" coords="0,0,232,212" alt="kerala foods" href ="https://www.keralatourism.org/kerala-food/">
+<P> KERALA FOODS</P></th>
+
+
+<th><img src="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\temple.jpeg",alt="temples of kerala" usemap=#map4>
+<map name="map4"><area shape = "rect" coords="0,0,232,212" alt="kerala foods" href ="https://www.keralatourism.org/temples/">
+<P>TEMPLES</P></th>
+
+
+<th><img src="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\backwater.jpg",alt="backwaters of kerala" usemap=#map5>
+<map name="map5"><area shape = "rect" coords="0,0,232,212" alt="kerala backwaters" href ="https://www.keralatourism.org/photo-gallery/backwater/">
+<P>BACK WATERS</P></th>
+
+</table>
+
+
+
+
+<a href="C:\Users\sivanand\OneDrive\Desktop\project webdesigning\pages\project page 2.html">
+<button style=text-size:70%;background-color:green;color:black;border-radius:15px;>Map & more</button>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
